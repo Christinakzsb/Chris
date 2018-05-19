@@ -1,0 +1,66 @@
+*{
+  box-sizing: border-box;
+}
+
+/*footer az oldal aljan leygen*/
+.csomagolas{
+  min-height: 100vh;
+  position: relative;
+  padding-bottom: 50px; /* Equals height of the footer and pushes away the content in the case they would touch. */
+}
+
+/*segítõ színek*/
+/*.footer{
+  background-color: yellow;
+}
+.button{
+ background-color: blue;
+}*/
+
+.content{
+  background-color: gray;
+  height: 1000px;
+}
+/*footer*/
+.footer{
+  padding: 1rem;
+  background: url('https://orange.codeberryschool.com/content/images/project-assets/simple-footer.png') repeat center;
+  font-family: 'Arial', sans-serif; 
+  font-size: 0.875rem;
+  color: white;
+  text-align: center;
+  bottom: 0;
+  left: 0;
+  width: 100vw;
+  height: 50px;
+  position: absolute;
+  display: table;
+}
+.wrapper {
+  vertical-align: middle;
+  display: table-cell;
+}
+
+/*gombok*/
+.button{
+  display: inline-block;
+  margin: 0.5rem;
+  color: #c74f78;
+  text-decoration: none;
+
+}
+.button:hover{
+  color: #f26896;
+  transition: color .15s ease-in-out;
+}
+
+/*szerzoi jogok*/
+small{
+  color: #ccc;
+  letter-spacing: .025rem;
+  margin-bottom: 1.5rem;
+  display: inline-block;
+}
+strong {
+  font-weight: 700;
+}
